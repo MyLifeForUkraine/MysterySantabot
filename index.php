@@ -6,16 +6,21 @@ $getUpdates='getUpdates';
 $sendMessage='sendMessage';
 $url='https://api.telegram.org/bot'. TOKEN . '/'.  $sendMessage;
 
-$chat1=438896532;
-$chat2=789287020;
+$chatL=438896532;
+$chatI=789287020;
+$chatY=427602579;
+$chatM=601838379;
+$chatK=789287020;
+$chatD=789287020;
+$chatN=410124792;
 $lastupdate=190436292;
 
 $params=[
     'offset'=>$lastupdate
 ];
 $options=[
-    'chat_id'=>$chat1,
-    'text'=>'Purr! purr! purr!',
+    'chat_id'=>$chatM,
+    'text'=>'Привіт Майя',
 ];
 // Soft kitty, warm kitty,
 // Little ball of fur,
